@@ -4,7 +4,8 @@
 
 import * as opentype from 'opentype.js';
 
-const DEFAULT_FONT = require('path').join(__dirname, '../fonts/ipag.ttf');
+// Dependency to "path" crashes when building on my angular cli project
+// const DEFAULT_FONT = require('path').join(__dirname, '../fonts/ipag.ttf');
 
 // Private method
 
